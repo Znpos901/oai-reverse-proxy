@@ -39,7 +39,7 @@
 ### 自托管
 [有关如何在自己的 VPS 或本地机器上自行托管应用程序的说明，请参见此处。](./docs/self-hosting.md)
 
-**确保根据部署情况设置了`TRUSTED_PROXIES`环境变量。**更多信息请参阅[.env.example](./.env.example)和[config.ts](./src/config.ts)。
+确保根据部署情况设置了`TRUSTED_PROXIES`环境变量。更多信息请参阅[.env.example](./.env.example)和[config.ts](./src/config.ts)。
 
 ### 替代方案
 Fiz 和 Sekrit 正在研究其他方便部署的方法。虽然除了就我的代码提供技术建议之外，我并没有参与这项工作，但为了方便起见，我还是在这里链接到他们的工作： [Sekrit's rentry](https://rentry.org/sekrit)  
