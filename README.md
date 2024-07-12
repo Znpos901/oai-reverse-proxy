@@ -59,6 +59,7 @@ Fiz 和 Sekrit 正在研究其他方便部署的方法。虽然除了就我的�
 4. 用 `npm run start:dev`以开发模式启动服务器。
 
 也可以使用 `npm run start:dev:tsc` 来启用整个项目的类型检查，但启动时间会变慢。可以使用 `npm run type-check`，在不启动服务器的情况下进行类型检查。
+
 注：windows平台直接使用start.bat一键启动
 
 ## 构建
