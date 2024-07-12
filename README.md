@@ -3,7 +3,7 @@
 
 ### 目录
 - [这是什么?](#这是什么)
-- [特性](#特性)
+- [特点](#特点)
 - [使用说明](#使用说明)
   - [自托管](#自托管)
   - [替代方案](#替代方案)
@@ -14,7 +14,7 @@
 ## 这是什么？
 该项目允许你为各种 LLM API 运行反向代理服务器。
 
-## 特性
+## 特点
 - [x] 支持多种 API
   - [x] [OpenAI](https://openai.com/)
   - [x] [Anthropic](https://www.anthropic.com/)
@@ -47,7 +47,7 @@ Fiz 和 Sekrit 正在研究其他方便部署的方法。虽然除了就我的�
 ### Huggingface（已过时，不建议使用）
 [有关如何部署到 Huggingface 空间的说明，请参见此处](./docs/deploy-huggingface.md)
 
-### 渲染（已过时，不建议使用）
+### Render（已过时，不建议使用）
 [有关如何部署到 Render.com 的说明，请参见此处。](./docs/deploy-render.md)
 
 ## 本地开发
