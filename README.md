@@ -60,7 +60,7 @@ Fiz 和 Sekrit 正在研究其他方便部署的方法。虽然除了就我的�
 
 也可以使用 `npm run start:dev:tsc` 来启用整个项目的类型检查，但启动时间会变慢。可以使用 `npm run type-check`，在不启动服务器的情况下进行类型检查。
 
-注：windows平台直接使用start.bat一键启动
+如在windows平台上运行，请在克隆项目到本地目录后新建一个`.env`文件并添加必要的API密钥(一个或多个)，具体格式参考 [.env.example](./.env.example) 文件，然后直接使用start.bat一键启动
 
 ## 构建
 要构建项目，请运行 `npm run build`。这将把 TypeScript 代码编译成 JavaScript 并输出到 `build` 目录。
