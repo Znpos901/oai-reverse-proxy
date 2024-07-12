@@ -36,7 +36,7 @@
 ### 使用说明
 如果你想运行自己的服务器实例，需要将其部署到某个地方，并用你的 API 密钥进行配置。下面提供了几个简单的选项，当然，如果你知道自己在做什么，而且服务支持 Node.js，你也可以将其部署到任何其他服务中。
 
-### 自托管（不支持gcp的vertexai）
+### 自托管（不支持gcp的vertex ai）
 [有关如何在自己的 VPS 或本地机器上自行托管应用程序的说明，请参见此处。](./docs/self-hosting.md)
 
 确保根据部署情况设置了`TRUSTED_PROXIES`环境变量。更多信息请参阅[.env.example](./.env.example)和[config.ts](./src/config.ts)。
