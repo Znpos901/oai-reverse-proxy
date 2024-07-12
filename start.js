@@ -3,7 +3,7 @@ const process = require('process');
 
 try {
   const child = spawn('node', [
-    '-r', '@swc/register',
+    '-r', '@swc-node/register',
     'src/server.ts'
   ], {
     stdio: 'inherit',
