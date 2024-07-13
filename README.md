@@ -6,7 +6,6 @@
 - [特点](#特点)
 - [使用说明](#使用说明)
   - [自托管(不支持gcp的vertex ai)](#自托管不支持gcp的vertexai)
-  - [替代方案](#替代方案)
     - [Huggingface (已过时，不建议使用)](#Huggingface已过时不建议使用)
     - [Render (已过时，不建议使用)](#render已过时不建议使用)
 - [本地开发](#本地开发)
@@ -40,9 +39,6 @@
 [有关如何在自己的 VPS 或本地机器上自行托管应用程序的说明，请参见此处。](./docs/self-hosting.md)
 
 确保根据部署情况设置了`TRUSTED_PROXIES`环境变量。更多信息请参阅[.env.example](./.env.example)和[config.ts](./src/config.ts)。
-
-### 替代方案
-Fiz 和 Sekrit 正在研究其他方便部署的方法。虽然除了就我的代码提供技术建议之外，我并没有参与这项工作，但为了方便起见，我还是在这里链接到他们的工作： [Sekrit's rentry](https://rentry.org/sekrit)  
 
 ### Huggingface（已过时，不建议使用）
 [有关如何部署到 Huggingface 空间的说明，请参见此处](./docs/deploy-huggingface.md)
